@@ -33,22 +33,7 @@ go version
 ### 3. Environment Variables
 The application requires certain environment variables to run. Create a .env file in the root of the project and fill it with the following value
 ```bash
-# Environment (development, production)
-ENV=development
-
-# Server details
-SERVER_PORT=8080
-
-# JWT Secret
-JWT_SECRET=<your_jwt_secret>
-
-# Database settings
-DB_USER=<db_user>
-DB_PASSWORD=<db_password>
-DB_NAME=<db_name>
-DB_HOST=<db_host>
-DB_PORT=<db_port>
-
+SERVER_ADDR=<server_addr>
 # Email settings
 SMTP_HOST=<smtp_host>
 SMTP_PORT=<smtp_port>
