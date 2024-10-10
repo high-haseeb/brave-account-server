@@ -20,8 +20,8 @@ This repository contains a simple authentication server that handles user regist
 ### 1. Clone the repository
 
 ```bash
-git clone <repository-url>
-cd <repository-directory>
+git clone https://github.com/high-haseeb/brave-account-server
+cd brave-account-server
 ```
 
 ### 2. Install Dependencies
